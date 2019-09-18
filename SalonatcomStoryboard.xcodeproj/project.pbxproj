@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A81DCD8B349220032CCF7F1 /* Pods_SalonatcomStoryboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FEC24F716C02B36555C4C4B /* Pods_SalonatcomStoryboard.framework */; };
+		581E9660232C1ED600C593D1 /* notificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581E965F232C1ED600C593D1 /* notificationController.swift */; };
+		581E9665232C298600C593D1 /* profileData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581E9664232C298600C593D1 /* profileData.swift */; };
+		582FCB40232E1EC100393B09 /* theControllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582FCB3F232E1EC100393B09 /* theControllers.swift */; };
+		5869DDFC232F4EE900291398 /* settingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5869DDFB232F4EE900291398 /* settingController.swift */; };
+		5869DDFF232F987300291398 /* dayesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5869DDFE232F987300291398 /* dayesController.swift */; };
+		58EA29A4232A3F1800220275 /* profileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA29A3232A3F1800220275 /* profileCell.swift */; };
+		58EA29A6232A463E00220275 /* CellForRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58EA29A5232A463E00220275 /* CellForRow.swift */; };
+		58F36539232D05EB00ABEE56 /* createAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F36538232D05EB00ABEE56 /* createAccount.swift */; };
+		58F8679E232B6B4000D93796 /* statusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F8679D232B6B4000D93796 /* statusViewController.swift */; };
+		58F867A0232B8A8C00D93796 /* ViewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F8679F232B8A8C00D93796 /* ViewsCell.swift */; };
+		58F867A3232B8C8A00D93796 /* orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58F867A2232B8C8A00D93796 /* orders.swift */; };
+		58FBE1F1232938A90081EC3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FBE1F0232938A90081EC3E /* AppDelegate.swift */; };
+		58FBE1F6232938A90081EC3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58FBE1F4232938A90081EC3E /* Main.storyboard */; };
+		58FBE1F8232938AB0081EC3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58FBE1F7232938AB0081EC3E /* Assets.xcassets */; };
+		58FBE1FB232938AB0081EC3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58FBE1F9232938AB0081EC3E /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		023EF339DF2F30B8AC5A8476 /* Pods-SalonatcomStoryboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SalonatcomStoryboard.debug.xcconfig"; path = "Target Support Files/Pods-SalonatcomStoryboard/Pods-SalonatcomStoryboard.debug.xcconfig"; sourceTree = "<group>"; };
+		581E965F232C1ED600C593D1 /* notificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationController.swift; sourceTree = "<group>"; };
+		581E9664232C298600C593D1 /* profileData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileData.swift; sourceTree = "<group>"; };
+		582FCB3F232E1EC100393B09 /* theControllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = theControllers.swift; sourceTree = "<group>"; };
+		5869DDFB232F4EE900291398 /* settingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = settingController.swift; sourceTree = "<group>"; };
+		5869DDFE232F987300291398 /* dayesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dayesController.swift; sourceTree = "<group>"; };
+		58EA29A3232A3F1800220275 /* profileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profileCell.swift; sourceTree = "<group>"; };
+		58EA29A5232A463E00220275 /* CellForRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellForRow.swift; sourceTree = "<group>"; };
+		58F36538232D05EB00ABEE56 /* createAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createAccount.swift; sourceTree = "<group>"; };
+		58F8679D232B6B4000D93796 /* statusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statusViewController.swift; sourceTree = "<group>"; };
+		58F8679F232B8A8C00D93796 /* ViewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsCell.swift; sourceTree = "<group>"; };
+		58F867A2232B8C8A00D93796 /* orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orders.swift; sourceTree = "<group>"; };
+		58FBE1ED232938A90081EC3E /* SalonatcomStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalonatcomStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FBE1F0232938A90081EC3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58FBE1F5232938A90081EC3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58FBE1F7232938AB0081EC3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58FBE1FA232938AB0081EC3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58FBE1FC232938AB0081EC3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FEC24F716C02B36555C4C4B /* Pods_SalonatcomStoryboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SalonatcomStoryboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D060BB86941322147AFA918D /* Pods-SalonatcomStoryboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SalonatcomStoryboard.release.xcconfig"; path = "Target Support Files/Pods-SalonatcomStoryboard/Pods-SalonatcomStoryboard.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58FBE1EA232938A90081EC3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A81DCD8B349220032CCF7F1 /* Pods_SalonatcomStoryboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		581E965E232C1E8800C593D1 /* Notification */ = {
+			isa = PBXGroup;
+			children = (
+				581E9662232C275700C593D1 /* views and controllers */,
+			);
+			path = Notification;
+			sourceTree = "<group>";
+		};
+		581E9661232C273700C593D1 /* views and controller */ = {
+			isa = PBXGroup;
+			children = (
+				58F8679D232B6B4000D93796 /* statusViewController.swift */,
+				58F8679F232B8A8C00D93796 /* ViewsCell.swift */,
+			);
+			path = "views and controller";
+			sourceTree = "<group>";
+		};
+		581E9662232C275700C593D1 /* views and controllers */ = {
+			isa = PBXGroup;
+			children = (
+				581E965F232C1ED600C593D1 /* notificationController.swift */,
+			);
+			path = "views and controllers";
+			sourceTree = "<group>";
+		};
+		581E9663232C279300C593D1 /* views and controllers */ = {
+			isa = PBXGroup;
+			children = (
+				58EA29A3232A3F1800220275 /* profileCell.swift */,
+				58EA29A5232A463E00220275 /* CellForRow.swift */,
+			);
+			path = "views and controllers";
+			sourceTree = "<group>";
+		};
+		582FCB3E232E1E9000393B09 /* Complaints and suggestions  */ = {
+			isa = PBXGroup;
+			children = (
+				582FCB3F232E1EC100393B09 /* theControllers.swift */,
+			);
+			path = "Complaints and suggestions ";
+			sourceTree = "<group>";
+		};
+		5869DDFA232F4EC600291398 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				5869DDFB232F4EE900291398 /* settingController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		5869DDFD232F984200291398 /* dayes of Work */ = {
+			isa = PBXGroup;
+			children = (
+				5869DDFE232F987300291398 /* dayesController.swift */,
+			);
+			path = "dayes of Work";
+			sourceTree = "<group>";
+		};
+		58EA29A2232A3EE800220275 /* myProfile */ = {
+			isa = PBXGroup;
+			children = (
+				581E9663232C279300C593D1 /* views and controllers */,
+				581E9664232C298600C593D1 /* profileData.swift */,
+			);
+			path = myProfile;
+			sourceTree = "<group>";
+		};
+		58F36537232D05BA00ABEE56 /* Accounting */ = {
+			isa = PBXGroup;
+			children = (
+				58F36538232D05EB00ABEE56 /* createAccount.swift */,
+			);
+			path = Accounting;
+			sourceTree = "<group>";
+		};
+		58F8679C232AE8C800D93796 /* myStatusOrders */ = {
+			isa = PBXGroup;
+			children = (
+				581E9661232C273700C593D1 /* views and controller */,
+				58F867A1232B8C6D00D93796 /* models */,
+			);
+			path = myStatusOrders;
+			sourceTree = "<group>";
+		};
+		58F867A1232B8C6D00D93796 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				58F867A2232B8C8A00D93796 /* orders.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		58FBE1E4232938A90081EC3E = {
+			isa = PBXGroup;
+			children = (
+				58FBE1EF232938A90081EC3E /* SalonatcomStoryboard */,
+				58FBE1EE232938A90081EC3E /* Products */,
+				813F9960D0FAACFDA33761BC /* Pods */,
+				7E2470CFC730A18818A89318 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		58FBE1EE232938A90081EC3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58FBE1ED232938A90081EC3E /* SalonatcomStoryboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58FBE1EF232938A90081EC3E /* SalonatcomStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				5869DDFD232F984200291398 /* dayes of Work */,
+				5869DDFA232F4EC600291398 /* Setting */,
+				582FCB3E232E1E9000393B09 /* Complaints and suggestions  */,
+				58F36537232D05BA00ABEE56 /* Accounting */,
+				581E965E232C1E8800C593D1 /* Notification */,
+				58F8679C232AE8C800D93796 /* myStatusOrders */,
+				58EA29A2232A3EE800220275 /* myProfile */,
+				58FBE1F0232938A90081EC3E /* AppDelegate.swift */,
+				58FBE1F4232938A90081EC3E /* Main.storyboard */,
+				58FBE1F7232938AB0081EC3E /* Assets.xcassets */,
+				58FBE1F9232938AB0081EC3E /* LaunchScreen.storyboard */,
+				58FBE1FC232938AB0081EC3E /* Info.plist */,
+			);
+			path = SalonatcomStoryboard;
+			sourceTree = "<group>";
+		};
+		7E2470CFC730A18818A89318 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FEC24F716C02B36555C4C4B /* Pods_SalonatcomStoryboard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		813F9960D0FAACFDA33761BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				023EF339DF2F30B8AC5A8476 /* Pods-SalonatcomStoryboard.debug.xcconfig */,
+				D060BB86941322147AFA918D /* Pods-SalonatcomStoryboard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58FBE1EC232938A90081EC3E /* SalonatcomStoryboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58FBE1FF232938AB0081EC3E /* Build configuration list for PBXNativeTarget "SalonatcomStoryboard" */;
+			buildPhases = (
+				14E1D8EE2D1730F5E7EEC274 /* [CP] Check Pods Manifest.lock */,
+				58FBE1E9232938A90081EC3E /* Sources */,
+				58FBE1EA232938A90081EC3E /* Frameworks */,
+				58FBE1EB232938A90081EC3E /* Resources */,
+				8D2EC4746FEEB877340023EE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SalonatcomStoryboard;
+			productName = SalonatcomStoryboard;
+			productReference = 58FBE1ED232938A90081EC3E /* SalonatcomStoryboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58FBE1E5232938A90081EC3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Bassam Ramadan";
+				TargetAttributes = {
+					58FBE1EC232938A90081EC3E = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 58FBE1E8232938A90081EC3E /* Build configuration list for PBXProject "SalonatcomStoryboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58FBE1E4232938A90081EC3E;
+			productRefGroup = 58FBE1EE232938A90081EC3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58FBE1EC232938A90081EC3E /* SalonatcomStoryboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58FBE1EB232938A90081EC3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58FBE1FB232938AB0081EC3E /* LaunchScreen.storyboard in Resources */,
+				58FBE1F8232938AB0081EC3E /* Assets.xcassets in Resources */,
+				58FBE1F6232938A90081EC3E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14E1D8EE2D1730F5E7EEC274 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SalonatcomStoryboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D2EC4746FEEB877340023EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SalonatcomStoryboard/Pods-SalonatcomStoryboard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SalonatcomStoryboard/Pods-SalonatcomStoryboard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SalonatcomStoryboard/Pods-SalonatcomStoryboard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58FBE1E9232938A90081EC3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58F867A0232B8A8C00D93796 /* ViewsCell.swift in Sources */,
+				582FCB40232E1EC100393B09 /* theControllers.swift in Sources */,
+				58F8679E232B6B4000D93796 /* statusViewController.swift in Sources */,
+				581E9660232C1ED600C593D1 /* notificationController.swift in Sources */,
+				5869DDFC232F4EE900291398 /* settingController.swift in Sources */,
+				58FBE1F1232938A90081EC3E /* AppDelegate.swift in Sources */,
+				58EA29A6232A463E00220275 /* CellForRow.swift in Sources */,
+				58F36539232D05EB00ABEE56 /* createAccount.swift in Sources */,
+				58F867A3232B8C8A00D93796 /* orders.swift in Sources */,
+				58EA29A4232A3F1800220275 /* profileCell.swift in Sources */,
+				5869DDFF232F987300291398 /* dayesController.swift in Sources */,
+				581E9665232C298600C593D1 /* profileData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		58FBE1F4232938A90081EC3E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58FBE1F5232938A90081EC3E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58FBE1F9232938AB0081EC3E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58FBE1FA232938AB0081EC3E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58FBE1FD232938AB0081EC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58FBE1FE232938AB0081EC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58FBE200232938AB0081EC3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 023EF339DF2F30B8AC5A8476 /* Pods-SalonatcomStoryboard.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SalonatcomStoryboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bassam.SalonatcomStoryboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58FBE201232938AB0081EC3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D060BB86941322147AFA918D /* Pods-SalonatcomStoryboard.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SalonatcomStoryboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bassam.SalonatcomStoryboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58FBE1E8232938A90081EC3E /* Build configuration list for PBXProject "SalonatcomStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FBE1FD232938AB0081EC3E /* Debug */,
+				58FBE1FE232938AB0081EC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58FBE1FF232938AB0081EC3E /* Build configuration list for PBXNativeTarget "SalonatcomStoryboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58FBE200232938AB0081EC3E /* Debug */,
+				58FBE201232938AB0081EC3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58FBE1E5232938A90081EC3E /* Project object */;
+}
